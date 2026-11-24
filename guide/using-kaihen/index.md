@@ -30,6 +30,12 @@ If hbmenu does not open, close the game and try another R-held launch. Keep Civi
 
 Place Switch 2 homebrew applications in the `/switch/` folder on the microSD card. Each application needs a `.nro` file.
 
+::: danger
+
+Malicious homebrew applications can **permanently damage** your console. Only download and run homebrew from trusted sources.
+
+:::
+
 In hbmenu:
 
 1. Navigate to the **switch** folder.
