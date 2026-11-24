@@ -1,5 +1,7 @@
 ---
 title: Preparing SmileBasic 4
+prev: false
+next: false
 ---
 
 # Preparing SmileBasic 4

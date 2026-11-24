@@ -1,5 +1,7 @@
 ---
 title: Installing kaiHEN (CivSwitch)
+prev: false
+next: false
 ---
 
 # Installing kaiHEN (CivSwitch)

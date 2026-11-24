@@ -1,5 +1,7 @@
 ---
 title: Using kaiHEN
+prev: false
+next: false
 ---
 
 # Using kaiHEN

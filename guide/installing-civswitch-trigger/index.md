@@ -1,5 +1,7 @@
 ---
 title: "Installing the CivSwitch Trigger"
+prev: false
+next: false
 ---
 
 # Installing the CivSwitch Trigger

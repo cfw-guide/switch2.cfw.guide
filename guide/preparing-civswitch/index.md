@@ -1,5 +1,7 @@
 ---
 title: Preparing CivSwitch
+prev: false
+next: false
 ---
 
 # Preparing CivSwitch

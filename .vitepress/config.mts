@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'GitHub', link: 'https://github.com/cfw-guide/switch2.cfw.guide/' }
     ],
     sidebar: {
-      '/guide/updating-to-23.0.1/': [
+      '/guide/': [
         {
           text: 'Guide',
           items: [
@@ -21,27 +21,6 @@ export default defineConfig({
             { text: 'Checking Firmware Version', link: '/guide/checking-firmware-version/' },
             { text: 'Updating to 23.0.1', link: '/guide/updating-to-23.0.1/' },
             { text: 'Choosing Your Entrypoint', link: '/guide/choosing-your-entrypoint/' },
-            { text: 'Preparing CivSwitch', link: '/guide/preparing-civswitch/' },
-            { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
-            { text: 'Installing the CivSwitch Trigger', link: '/guide/installing-civswitch-trigger/' },
-            { text: 'Installing kaiHEN (CivSwitch)', link: '/guide/installing-kaihen-(civswitch)/' },
-            { text: 'Using kaiHEN', link: '/guide/using-kaihen/' },
-          ]
-        }
-      ],
-      '/guide/': [
-        {
-          text: 'Guide',
-          items: [
-            { text: 'Get Started', link: '/guide/get-started/' },
-            { text: 'Disconnecting from Internet', link: '/guide/disconnecting-from-internet/' },
-            { text: 'Checking Firmware Version', link: '/guide/checking-firmware-version/' },
-            { text: 'Choosing Your Entrypoint', link: '/guide/choosing-your-entrypoint/' },
-            { text: 'Preparing CivSwitch', link: '/guide/preparing-civswitch/' },
-            { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
-            { text: 'Installing the CivSwitch Trigger', link: '/guide/installing-civswitch-trigger/' },
-            { text: 'Installing kaiHEN (CivSwitch)', link: '/guide/installing-kaihen-(civswitch)/' },
-            { text: 'Using kaiHEN', link: '/guide/using-kaihen/' }
           ]
         }
       ]

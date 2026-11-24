@@ -1,5 +1,7 @@
 ---
 title: "Using 90DNS on the Raspberry Pi Pico 1/2 W"
+prev: false
+next: false
 ---
 
 # Using 90DNS on the Raspberry Pi Pico 1/2 W

@@ -206,3 +206,99 @@
 .tab-panel > :last-child {
   margin-bottom: 0;
 }
+
+.branch-sidebar {
+  margin-top: -24px;
+}
+
+.branch-sidebar .VPSidebarItem {
+  position: relative;
+}
+
+.branch-sidebar .item {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.branch-sidebar .link {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.branch-sidebar .text {
+  flex-grow: 1;
+  margin: 0;
+  padding: 4px 0;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  transition: color 0.25s;
+}
+
+.branch-sidebar .link:hover .text {
+  color: var(--vp-c-brand-1);
+}
+
+.branch-sidebar .is-active .text {
+  color: var(--vp-c-brand-1);
+}
+
+.branch-pager {
+  display: grid;
+  grid-row-gap: 8px;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 24px;
+}
+
+@media (min-width: 640px) {
+  .branch-pager {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+  }
+}
+
+.branch-pager .pager-link {
+  display: block;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 11px 16px 13px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  transition: border-color 0.25s;
+}
+
+.branch-pager .pager-link:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.branch-pager .pager-link.next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.branch-pager .desc {
+  display: block;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}
+
+.branch-pager .title {
+  display: block;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  transition: color 0.25s;
+}
+
+.VPDoc:has(.branch-pager) .VPDocFooter {
+  display: none;
+}
+
