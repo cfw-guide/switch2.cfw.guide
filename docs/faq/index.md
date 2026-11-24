@@ -22,7 +22,7 @@ Yes. The CivSwitch route requires a physical **Civilization VII v1.0.0** cartrid
 
 ## Do I need a microSD Express card?
 
-No. A standard microSD card can store homebrew. The CivSwitch kaiHEN setup requires a FAT32 or exFAT card; see [Installing kaiHEN](/installing-kaihen-(civswitch)/) for the requirements.
+No. A standard microSD card can store homebrew. Any system can use a FAT32 formatted card, but you can only use an exFAT formatted card if your console has received a system update that adds exFAT support.
 
 ## Can I connect to Nintendo's servers?
 
@@ -34,7 +34,7 @@ Yes. The filesystem exploit is experimental and carries a risk of permanent dama
 
 ## Do I need to run kaiHEN again after restarting?
 
-Yes. kaiHEN remains active only until the console restarts. With the persistent CivSwitch setup, launch Civilization VII and select **Load Game** to start it again. With SmileBasic, you must send the payload from your computer each time after a restart.
+Yes. kaiHEN remains active only until the console restarts. Due to the risk of damage, we recommend avoiding unnecessary restarts and only running kaiHEN when needed.
 
 ## How do I open the homebrew menu?
 
