@@ -1,44 +1,22 @@
 ---
 title: "Get Started"
+next: false
+sidebar: false
 ---
+
+<script setup>
+import RiskAcknowledgement from '../../.vitepress/theme/components/RiskAcknowledgement.vue'
+</script>
 
 # Get Started
 
 ### Required Reading
 
-Currently, the only version compatible with homebrew on the Nintendo Switch 2 is **23.0.1**. If you are running a firmware version greater than this, you cannot downgrade your firmware or use homebrew.
+The homebrew scene for the Nintendo Switch 2 is still very much in its **infancy**. The exploits available are only <Definition term="userland">Userland applications do not have full system access, but can still execute code within their limited environment.</Definition> exploits, and require a vulnerable game as an entry point.
 
-While the bug that allows the exploit to work does exist on older versions, the exploit itself has not been ported to those versions. It's also possible that lower firmware versions may have more powerful vulnerabilities that could be exploited in the future. That being said, if you would rather not wait and want to use homebrew now, it is possible to update to 23.0.1 by locally updating your console with another console running the target firmware version.
+Furthermore, these exploits can be unstable and there have been multiple reports of these exploits <Definition term="bricking">Bricking refers to rendering a device completely unusable, as if it were a "brick".</Definition> the console. At this time, there is no way to create or restore a full system backup, meaning that there is **no chance of recovery**. It may be worth holding out and waiting for more stable and reliable methods to become available.
 
-If you're on 23.0.1, or okay with missing out on any potential future exploits, we can begin. Before we start, however, we need to make sure that all Nintendo services are properly blocked to protect your console from being blacklisted.
+Nintendo are also vigilant at blocking these vulnerable games from being used. Even if you haven't updated your console, Nintendo can remotely block games from being launched over the internet, including _all_ of the currently released entry points. It is therefore crucial to keep your console **disconnected** from Nintendo's servers at all times.
 
-<!--
+<RiskAcknowledgement />
 
-### Blacklisting (FunctionBlackList)
-
-Nintendo automatically blacklist entrypoints that are used to exploit the system when connected to their online services. If your console has connected to Nintendo's servers after 12th November 2026, you will no longer be able to use homebrew.
-
-::: tip
-
-Always keep your console disconnected from Nintendo's servers to avoid being blacklisted and losing the ability to use homebrew.
-
-:::
-
-### Finding your firmware version
-
-1. Power on your Nintendo Switch 2 console.
-2. Navigate to the **System Settings** from the home menu.
-3. Scroll down and select **System**.
-4. Your firmware version will be displayed under **System Update**.
-
-![Finding your firmware version](./update.png)
-
-### Version Table
-
-| From | To | |
-|------|----|-|
-| 19.0.0 | 23.0.0 | [Updating to 23.0.1](/guide/updating-to-23.0.1/) |
-| 23.0.1 | 23.0.1 | [Choosing Your Entrypoint](/guide/choosing-your-entrypoint/) |
-| 23.5.0 | 23.5.0 | Not compatible |
-
--->
