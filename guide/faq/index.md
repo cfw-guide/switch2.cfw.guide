@@ -26,7 +26,7 @@ No. A standard microSD card can store homebrew. The CivSwitch kaiHEN setup requi
 
 ## Can I connect to Nintendo's servers?
 
-Connecting may blacklist an entry point and prevent you from launching homebrew. Follow [Blocking Nintendo](/guide/blocking-nintendo/) before connecting the console to a network, and verify that Nintendo's servers are blocked.
+Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline unless using an [isolated bridge network](/guide/setting-up-civswitch-bridge/).
 
 ## Can this brick my console?
 

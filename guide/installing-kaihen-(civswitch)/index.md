@@ -28,7 +28,7 @@ Before continuing, read the [brick risk information](https://github.com/s8n/CivS
 - [Node.js 20](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on the PC
 - A FAT32 or exFAT microSD card
     - A system update is required for exFAT support. If you have not completed the update, you must use FAT32.
-- A network connection that does not allow the console to reach Nintendo servers ([Blocking Nintendo](/guide/blocking-nintendo/))
+- A verified [CivSwitch bridge](/guide/setting-up-civswitch-bridge/) or another network that does not allow the console to reach Nintendo servers
 
 ## Prepare the PC
 
@@ -73,7 +73,7 @@ Insert the microSD card into the console before starting.
 npm run persist:chain -- <console-ip>
 ```
 
-Replace `<console-ip>` with the console's IP address. Do not include angle brackets.
+Replace `<console-ip>` with the console's IP address. Do not include angle brackets. If you are using CivSwitch Bridge, the IP address is likely `192.168.4.2`.
 
 Wait for the save setup to finish. It normally takes about one minute.
 

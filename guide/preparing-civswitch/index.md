@@ -13,12 +13,6 @@ This section covers preparing and flashing a Raspberry Pi Pico so it can send th
 - A PC running Windows, macOS, or Linux.
 - A Civilization VII v1.0.0 game cartridge.
 
-::: tip
-
-Follow the [Blocking Nintendo](/guide/blocking-nintendo/) instructions before connecting the console to the internet. An incorrectly configured network can cause Nintendo to lock the game.
-
-:::
-
 ## Download the firmware
 
 Download the latest [CivSwitch release](https://github.com/Gezine/CivSwitch/releases/latest) and extract the ZIP file.
@@ -49,7 +43,7 @@ Before using CivSwitch:
 
 1. Set **System Language** to **English (US)**.
 2. In **System Settings → Controllers & Accessories**, set **Change the USB Keyboard Layout** to **English (US)**.
-3. Ensure the console is connected to a network with Nintendo servers blocked by [90DNS](https://gitlab.com/a/90dns).
+3. Do not connect the console to any network.
 4. Insert the Civilization VII v1.0.0 cartridge and launch the game.
 
 The language and keyboard layout can be restored after the boot-persistent trigger has been installed.
@@ -67,37 +61,4 @@ The payload takes about 20 minutes to type. Do not unplug the Pico or interact w
 
 Once it finishes, the Remote JS Loader should appear on the console and listen on TCP port `9026`.
 
-## Install the boot-persistent trigger
-
-The initial payload is only active while the loader session is running. Installing the trigger allows it to run again after reboot.
-
-On a PC, clone the CivSwitch repository and install the required Node.js dependencies:
-
-```sh
-git clone https://github.com/Gezine/CivSwitch.git
-cd CivSwitch/installer-creator
-npm install
-```
-
-Find the Switch 2's IP address in the console's network settings, then run:
-
-```sh
-python install.py <console-ip>
-```
-
-The script uploads and installs the default Remote JS Loader payload. Wait until it prints `INSTALL DONE`.
-
-::: warning
-
-Do not close or interrupt `install.py` until installation completes.
-
-:::
-
-After installation:
-
-1. Reboot the console.
-2. Launch Civilization VII.
-3. From the main menu, select **Load Game**.
-4. The boot trigger will start the payload automatically.
-
-The trigger will run whenever you use **Load Game** after reboot. 
+We will now leave the console with the loader running while we set up a bridge to communicate with it from the PC.

@@ -3,6 +3,10 @@ import { ref } from 'vue'
 import { withBase } from 'vitepress'
 
 const acknowledged = ref(false)
+
+let name = 'Disconnecting from Internet'
+let url = withBase('/guide/disconnecting-from-internet/')
+
 </script>
 
 <template>
@@ -13,13 +17,13 @@ const acknowledged = ref(false)
     </label>
 
     <nav class="pager" aria-label="Page navigation">
-      <a v-if="acknowledged" class="pager-link" :href="withBase('/guide/blocking-nintendo/')">
+      <a v-if="acknowledged" class="pager-link" :href="url">
         <span class="desc">Next page</span>
-        <span class="title">Blocking Nintendo</span>
+        <span class="title">{{ name }}</span>
       </a>
       <span v-else class="pager-link disabled" role="link" aria-disabled="true">
         <span class="desc">Next page</span>
-        <span class="title">Blocking Nintendo</span>
+        <span class="title">{{ name }}</span>
       </span>
     </nav>
   </div>
