@@ -7,17 +7,17 @@ export interface BranchPage {
 
 export const branchPages: Record<Branch, BranchPage[]> = {
   smilebasic: [
-    { text: 'Preparing SmileBasic', link: '/guide/preparing-smilebasic/' },
-    { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
-    { text: 'Installing kaiHEN (SmileBasic)', link: '/guide/installing-kaihen-(smilebasic)/' },
-    { text: 'Using kaiHEN (SmileBasic)', link: '/guide/using-kaihen-(smilebasic)/' }
+    { text: 'Preparing SmileBasic', link: '/preparing-smilebasic/' },
+    { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
+    { text: 'Installing kaiHEN (SmileBasic)', link: '/installing-kaihen-(smilebasic)/' },
+    { text: 'Using kaiHEN (SmileBasic)', link: '/using-kaihen-(smilebasic)/' }
   ],
   civswitch: [
-    { text: 'Preparing CivSwitch', link: '/guide/preparing-civswitch/' },
-    { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
-    { text: 'Installing the CivSwitch Trigger', link: '/guide/installing-civswitch-trigger/' },
-    { text: 'Installing kaiHEN (CivSwitch)', link: '/guide/installing-kaihen-(civswitch)/' },
-    { text: 'Using kaiHEN (CivSwitch)', link: '/guide/using-kaihen-(civswitch)/' }
+    { text: 'Preparing CivSwitch', link: '/preparing-civswitch/' },
+    { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
+    { text: 'Installing the CivSwitch Trigger', link: '/installing-civswitch-trigger/' },
+    { text: 'Installing kaiHEN (CivSwitch)', link: '/installing-kaihen-(civswitch)/' },
+    { text: 'Using kaiHEN (CivSwitch)', link: '/using-kaihen-(civswitch)/' }
   ]
 }
 

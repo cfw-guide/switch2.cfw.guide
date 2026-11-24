@@ -10,7 +10,7 @@ Homebrew is software made by independent developers rather than licensed by Nint
 
 ## Which system version does this guide support?
 
-The kaiHEN setup covered by this guide requires **23.0.1**. The exploit has not been ported to older versions, and this guide does not support newer versions. See [Get Started](/guide/get-started/) before updating.
+The kaiHEN setup covered by this guide requires **23.0.1**. The exploit has not been ported to older versions, and this guide does not support newer versions. See [Get Started](/get-started/) before updating.
 
 ## Can I downgrade to 23.0.1?
 
@@ -18,19 +18,19 @@ No. If your console is on a newer system version, you cannot downgrade to use th
 
 ## Do I need a game?
 
-Yes. The CivSwitch route requires a physical **Civilization VII v1.0.0** cartridge, and the SmileBasic 4 route requires an installed copy of **SmileBasic 4 v4.4.9** or the compatible demo. See [Choosing Your Entrypoint](/guide/choosing-your-entrypoint/) for availability.
+Yes. The CivSwitch route requires a physical **Civilization VII v1.0.0** cartridge, and the SmileBasic 4 route requires an installed copy of **SmileBasic 4 v4.4.9** or the compatible demo. See [Choosing Your Entrypoint](/choosing-your-entrypoint/) for availability.
 
 ## Do I need a microSD Express card?
 
-No. A standard microSD card can store homebrew. The CivSwitch kaiHEN setup requires a FAT32 or exFAT card; see [Installing kaiHEN](/guide/installing-kaihen-(civswitch)/) for the requirements.
+No. A standard microSD card can store homebrew. The CivSwitch kaiHEN setup requires a FAT32 or exFAT card; see [Installing kaiHEN](/installing-kaihen-(civswitch)/) for the requirements.
 
 ## Can I connect to Nintendo's servers?
 
-Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline or using an [isolated 90DNS Pico network](/guide/using-90dns-on-pico-1-2-w/).
+Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline or using an [isolated 90DNS Pico network](/using-90dns-on-pico-1-2-w/).
 
 ## Can this brick my console?
 
-Yes. The filesystem exploit is experimental and carries a risk of permanent damage. Read the warnings and linked brick risk information in [Installing kaiHEN](/guide/installing-kaihen-(civswitch)/) before proceeding.
+Yes. The filesystem exploit is experimental and carries a risk of permanent damage. Read the warnings and linked brick risk information in [Installing kaiHEN](/installing-kaihen-(civswitch)/) before proceeding.
 
 ## Do I need to run kaiHEN again after restarting?
 
@@ -38,4 +38,4 @@ Yes. kaiHEN remains active only until the console restarts. With the persistent 
 
 ## How do I open the homebrew menu?
 
-After starting kaiHEN, hold **R** while launching a native Switch 2 game. The first R-held launch records the game's signing policy and starts the game normally; close it and repeat to open hbmenu. See [Using kaiHEN](/guide/using-kaihen/) for details.
+After starting kaiHEN, hold **R** while launching a native Switch 2 game. The first R-held launch records the game's signing policy and starts the game normally; close it and repeat to open hbmenu. See [Using kaiHEN](/using-kaihen/) for details.

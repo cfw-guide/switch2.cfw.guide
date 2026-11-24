@@ -20,7 +20,7 @@ You must buy the **cartridge version** of the game to use as an entry point, as 
 
 ::: tip
 
-Continue to <BranchLink branch="civswitch" to="/guide/preparing-civswitch/">Preparing CivSwitch</BranchLink>
+Continue to <BranchLink branch="civswitch" to="/preparing-civswitch/">Preparing CivSwitch</BranchLink>
 
 :::
 
@@ -29,7 +29,7 @@ Continue to <BranchLink branch="civswitch" to="/guide/preparing-civswitch/">Prep
 **SmileBasic 4** is another title that can be used as an entry point for homebrew. This game is an eShop only title, and the correct version (v4.4.9) was only available for a few hours before Nintendo pulled it from the store.
 ::: tip
 
-Continue to <BranchLink branch="smilebasic" to="/guide/preparing-smilebasic/">Preparing SmileBasic 4</BranchLink>
+Continue to <BranchLink branch="smilebasic" to="/preparing-smilebasic/">Preparing SmileBasic 4</BranchLink>
 
 :::
 

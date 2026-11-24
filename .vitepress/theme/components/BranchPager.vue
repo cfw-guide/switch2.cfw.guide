@@ -18,10 +18,10 @@ function updateBranch(path: string) {
     branch.value = routeBranch
     setBranchCookie(routeBranch)
   } else if (
-    path.includes('/guide/get-started/') ||
-    path.includes('/guide/disconnecting-from-internet/') ||
-    path.includes('/guide/checking-firmware-version/') ||
-    path.includes('/guide/choosing-your-entrypoint/')
+    path.includes('/get-started/') ||
+    path.includes('/disconnecting-from-internet/') ||
+    path.includes('/checking-firmware-version/') ||
+    path.includes('/choosing-your-entrypoint/')
   ) {
     branch.value = null
   } else {

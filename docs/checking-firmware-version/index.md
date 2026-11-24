@@ -33,6 +33,6 @@ Always keep your console disconnected from Nintendo's servers to avoid being bla
 ## Version Table
 | From | To | |
 |------|----|-|
-| 19.0.0 | 23.0.0 | [Updating to 23.0.1](/guide/updating-to-23.0.1/) |
-| 23.0.1 | 23.0.1 | [Choosing Your Entrypoint](/guide/choosing-your-entrypoint/) |
+| 19.0.0 | 23.0.0 | [Updating to 23.0.1](/updating-to-23.0.1/) |
+| 23.0.1 | 23.0.1 | [Choosing Your Entrypoint](/choosing-your-entrypoint/) |
 | 23.5.0 | 23.5.0 | Not compatible |

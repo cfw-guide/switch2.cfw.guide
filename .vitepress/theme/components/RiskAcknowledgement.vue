@@ -5,7 +5,7 @@ import { withBase } from 'vitepress'
 const acknowledged = ref(false)
 
 let name = 'Disconnecting from Internet'
-let url = withBase('/guide/disconnecting-from-internet/')
+let url = withBase('/disconnecting-from-internet/')
 
 </script>
 

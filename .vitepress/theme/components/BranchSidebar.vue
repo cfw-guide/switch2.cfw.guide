@@ -30,25 +30,25 @@ watch(() => route.path, (path) => {
   const routeBranch = detectBranch(path)
   if (routeBranch) setBranch(routeBranch)
   else if (
-    path.includes('/guide/get-started/') ||
-    path.includes('/guide/disconnecting-from-internet/') ||
-    path.includes('/guide/checking-firmware-version/') ||
-    path.includes('/guide/updating-to-23.0.1/') ||
-    path.includes('/guide/choosing-your-entrypoint/')
+    path.includes('/get-started/') ||
+    path.includes('/disconnecting-from-internet/') ||
+    path.includes('/checking-firmware-version/') ||
+    path.includes('/updating-to-23.0.1/') ||
+    path.includes('/choosing-your-entrypoint/')
   ) {
     branch.value = null
   }
   else if (
-    path.includes('/guide/get-started/') ||
-    path.includes('/guide/disconnecting-from-internet/') ||
-    path.includes('/guide/checking-firmware-version/') ||
-    path.includes('/guide/updating-to-23.0.1/') ||
-    path.includes('/guide/choosing-your-entrypoint/')
+    path.includes('/get-started/') ||
+    path.includes('/disconnecting-from-internet/') ||
+    path.includes('/checking-firmware-version/') ||
+    path.includes('/updating-to-23.0.1/') ||
+    path.includes('/choosing-your-entrypoint/')
   ) {
     branch.value = null
   }
   else if (
-    path.includes('/guide/using-90dns-on-pico-1-2-w/')
+    path.includes('/using-90dns-on-pico-1-2-w/')
   ) {
     const saved = readBranchCookie()
     if (saved) branch.value = saved
@@ -59,10 +59,10 @@ onMounted(() => {
   if (route.path.includes('smilebasic')) setBranch('smilebasic')
   else if (route.path.includes('civswitch')) setBranch('civswitch')
   else if (
-    route.path.includes('/guide/get-started/') ||
-    route.path.includes('/guide/disconnecting-from-internet/') ||
-    route.path.includes('/guide/checking-firmware-version/') ||
-    route.path.includes('/guide/choosing-your-entrypoint/')
+    route.path.includes('/get-started/') ||
+    route.path.includes('/disconnecting-from-internet/') ||
+    route.path.includes('/checking-firmware-version/') ||
+    route.path.includes('/choosing-your-entrypoint/')
   ) {
     branch.value = null
   }

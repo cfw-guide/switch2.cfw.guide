@@ -12,7 +12,7 @@ You will need:
 
 - The CivSwitch Remote JS Loader running on the Switch 2.
 - A computer connected to the same network as the console.
-    - Ensure you are using an [isolated network](/guide/using-90dns-on-pico-1-2-w/).
+    - Ensure you are using an [isolated network](/using-90dns-on-pico-1-2-w/).
 - Python 3 and Git.
 
 ## Install the trigger

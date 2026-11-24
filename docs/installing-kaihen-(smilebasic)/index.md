@@ -24,7 +24,7 @@ This process can permanently damage your console. If you are not comfortable wit
 
 - A Switch 2 running firmware **23.0.1**
 - SmileBasic 4 v4.4.9 or demo version
-- The saved `NS2` SmileBasic program prepared in [Preparing SmileBasic 4](/guide/preparing-smilebasic/)
+- The saved `NS2` SmileBasic program prepared in [Preparing SmileBasic 4](/preparing-smilebasic/)
 - A FAT32 or exFAT microSD card inserted in the console
 - [Node.js 22](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on your computer
 
@@ -47,7 +47,7 @@ The microSD card does not need to contain the files from the kaiHEN release. The
     - This is the default mode when creating a new program in SmileBasic.
 1. Leave SmileBasic open and return to your computer.
 1. Connect your computer to the same network as the Switch 2.
-    - Ensure you are using an [isolated network](/guide/using-90dns-on-pico-1-2-w/)
+    - Ensure you are using an [isolated network](/using-90dns-on-pico-1-2-w/)
 1. Find your computer's local IP address.
     - **Windows**: Open Command Prompt and run `ipconfig`. Look for the `IPv4 Address` under your active network adapter.
     - **macOS**: Open Terminal and run `ifconfig`. Look for the `inet` address under your active network interface (usually `en0` or `en1`).
