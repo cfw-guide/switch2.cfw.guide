@@ -28,8 +28,7 @@ Before continuing, read the [brick risk information](https://github.com/s8n/CivS
 - [Node.js 20](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on the PC
 - A FAT32 or exFAT microSD card
     - A system update is required for exFAT support. If you have not completed the update, you must use FAT32.
-- A verified [CivSwitch bridge](/guide/setting-up-civswitch-bridge/) or another network that does not allow the console to reach Nintendo servers
-
+    
 ## Prepare the PC
 
 Clone the `slop` branch, because the repository's active development branch is not `main`:

@@ -14,11 +14,15 @@ You will need:
 - The `pyserial` Python package.
 - CivSwitch configured on the Switch 2, with its Remote JS Loader running on port `9026`.
 - A supported USB data cable.
+- A Raspberry Pi Pico 2 W
 
+<!--
 <Tabs>
 <Tab title="Pico 2 W">
 
 Use this option with a Raspberry Pi Pico 2 W.
+
+-->
 
 ### 1. Flash the bridge
 
@@ -78,7 +82,7 @@ If successful, the PC terminal should display:
 ```text
 Hello from Switch via Pico 2 W!
 ```
-
+<!--
 </Tab>
 <Tab title="ESP32">
 
@@ -158,3 +162,4 @@ Check that the Switch is connected to `Switch2Bridge`, verify its IP address, an
 
 </Tab>
 </Tabs>
+-->
