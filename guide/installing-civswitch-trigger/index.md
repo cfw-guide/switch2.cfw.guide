@@ -9,7 +9,7 @@ The initial USB payload is only active while the Remote JS Loader session is run
 You will need:
 
 - The CivSwitch Remote JS Loader running on the Switch 2.
-- A PC connected to the [CivSwitch bridge](/guide/setting-up-civswitch-bridge/).
+- A PC connected to the [CivSwitch bridge](/guide/using-the-civswitch-bridge/).
 - Python 3 and Git.
 - The Switch 2's current IP address.
 
