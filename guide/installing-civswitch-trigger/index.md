@@ -11,7 +11,6 @@ You will need:
 - The CivSwitch Remote JS Loader running on the Switch 2.
 - A PC connected to the [CivSwitch bridge](/guide/using-the-civswitch-bridge/).
 - Python 3 and Git.
-- The Switch 2's current IP address.
 
 ## Install the trigger
 
@@ -29,7 +28,7 @@ Run:
 python install.py <console-ip>
 ```
 
-Replace `<console-ip>` with the console's IP address. Do not include angle brackets. If you are using CivSwitch Bridge, the IP address is likely `192.168.4.2`.
+Replace `<console-ip>` with the console's IP address. Do not include angle brackets. If you are using the CivSwitch Bridge, the IP address is likely `192.168.4.2`.
 
 The script uploads and installs the default Remote JS Loader payload. Wait until it prints `INSTALL DONE`.
 

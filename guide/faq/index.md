@@ -18,7 +18,7 @@ No. If your console is on a newer system version, you cannot downgrade to use th
 
 ## Do I need a game?
 
-Yes. The CivSwitch instructions require a physical **Civilization VII v1.0.0** cartridge. See [Choosing Your Entrypoint](/guide/choosing-your-entrypoint/) for other entry points and their availability.
+Yes. The CivSwitch route requires a physical **Civilization VII v1.0.0** cartridge, and the SmileBasic 4 route requires an installed copy of **SmileBasic 4 v4.4.9** or the compatible demo. See [Choosing Your Entrypoint](/guide/choosing-your-entrypoint/) for availability.
 
 ## Do I need a microSD Express card?
 
@@ -26,7 +26,7 @@ No. A standard microSD card can store homebrew. The CivSwitch kaiHEN setup requi
 
 ## Can I connect to Nintendo's servers?
 
-Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline unless using an [isolated bridge network](/guide/using-the-civswitch-bridge/).
+Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline unless using an [isolated CivSwitch bridge network](/guide/using-the-civswitch-bridge/).
 
 ## Can this brick my console?
 
