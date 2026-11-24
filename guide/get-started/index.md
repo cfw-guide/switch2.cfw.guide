@@ -26,9 +26,9 @@ The setup for homebrew is not simple. You will need the knowledge of how to use 
 - A vulnerable game required for the userland exploit
 - A PC with [Python](https://www.python.org/) installed
 - A microSD card for the console
-- A microcontroller board such as the Raspberry Pi Pico 2 W
+- A microcontroller board such as the [Raspberry Pi Pico 2 W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
 
-Other microcontrollers such as an ESP32 can also be used, however this guide just focuses on the Pico 2 W.
+Other microcontrollers such as an ESP32 can also be used, however this guide only focuses on the Pico 2 W.
 
 <RiskAcknowledgement />
 
