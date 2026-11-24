@@ -10,7 +10,7 @@ export const branchPages: Record<Branch, BranchPage[]> = {
     { text: 'Preparing SmileBasic', link: '/preparing-smilebasic/' },
     { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
     { text: 'Installing kaiHEN (SmileBasic)', link: '/installing-kaihen-(smilebasic)/' },
-    { text: 'Using kaiHEN (SmileBasic)', link: '/using-kaihen-(smilebasic)/' }
+    { text: 'Using kaiHEN', link: '/using-kaihen/' }
   ],
   civswitch: [
     { text: 'Preparing CivSwitch', link: '/preparing-civswitch/' },
