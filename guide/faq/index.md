@@ -34,7 +34,7 @@ Yes. The filesystem exploit is experimental and carries a risk of permanent dama
 
 ## Do I need to run kaiHEN again after restarting?
 
-Yes. kaiHEN remains active only until the console restarts. With the persistent CivSwitch setup, launch Civilization VII and select **Load Game** to start it again. See [Using kaiHEN](/guide/using-kaihen/).
+Yes. kaiHEN remains active only until the console restarts. With the persistent CivSwitch setup, launch Civilization VII and select **Load Game** to start it again. With SmileBasic, you must send the payload from your computer each time after a restart.
 
 ## How do I open the homebrew menu?
 

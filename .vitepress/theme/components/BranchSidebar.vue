@@ -48,8 +48,7 @@ watch(() => route.path, (path) => {
     branch.value = null
   }
   else if (
-    path.includes('/guide/using-90dns-on-pico-1-2-w/') ||
-    path.includes('/guide/using-kaihen/')
+    path.includes('/guide/using-90dns-on-pico-1-2-w/')
   ) {
     const saved = readBranchCookie()
     if (saved) branch.value = saved
