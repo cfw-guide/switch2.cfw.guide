@@ -67,6 +67,7 @@ function handleOutsidePointer(event: PointerEvent) {
 
   if (!triggerRef.value?.contains(target) && !tooltipRef.value?.contains(target)) {
     close()
+    triggerRef.value?.blur()
   }
 }
 
