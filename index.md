@@ -19,13 +19,16 @@ Homebrew can be run for free on Nintendo Switch 2 consoles running firmware vers
 
 # Compatible Entry Points
 
-The following games are usable as an entry point to homebrew:
+The following games are usable as an entry point to homebrew. SmileBasic 4 and Seedsow Lullaby have "demo" versions which are also compatible.
 
 - **Civilization VII** (v1.0.0)
 - **SmileBasic 4** (v4.4.9)
-- **Seedsow Lullaby** (v1.1.0)
+- **Seedsow Lullaby** (v1.1.0) 
 
-The demo versions of these games are also compatible.
+Civilization VII is still available, but you must purchase the **cartridge version** for Nintendo Switch 1 to use as an entry point. Some cases of the game may come with a code in the box instead of a cartridge, which will not work for homebrew.
+
+Vulnerable versions of SmileBasic 4 and Seedsow Lullaby were only available through the eShop, and have now been removed.
+
 
 # FunctionBlackList
 
