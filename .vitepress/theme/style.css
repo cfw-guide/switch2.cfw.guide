@@ -103,10 +103,10 @@
 }
 
 .definition-tooltip {
-  position: absolute;
+  position: fixed;
   z-index: 20;
-  left: 50%;
-  bottom: calc(100% + 8px);
+  left: 12px;
+  top: 12px;
   width: max-content;
   max-width: min(280px, 80vw);
   padding: 8px 10px;
@@ -122,7 +122,7 @@
   white-space: normal;
   opacity: 0;
   visibility: hidden;
-  transform: translate(-50%, 4px);
+  transform: translate(0, 4px);
   transition: opacity 0.12s ease, transform 0.12s ease, visibility 0.12s;
   pointer-events: none;
 }
@@ -130,7 +130,7 @@
 .definition-tooltip::after {
   content: '';
   position: absolute;
-  left: 50%;
+  left: var(--tooltip-arrow-left, 50%);
   top: 100%;
   width: 8px;
   height: 8px;
@@ -145,7 +145,7 @@
 .definition.is-open .definition-tooltip {
   opacity: 1;
   visibility: visible;
-  transform: translate(-50%, 0);
+  transform: translate(0, 0);
 }
 
 .tabs {
