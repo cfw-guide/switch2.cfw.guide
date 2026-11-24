@@ -63,4 +63,4 @@ The payload takes about 20 minutes to type. Do not unplug the Pico or interact w
 
 Once it finishes, the Remote JS Loader should appear on the console and listen on TCP port `9026`.
 
-We will now leave the console with the loader running while we set up a bridge to communicate with it from the PC.
+We will now leave the console with the loader running while we set up an isolated network so the PC and console can communicate safely.

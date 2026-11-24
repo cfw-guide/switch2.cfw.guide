@@ -26,4 +26,4 @@ Do not connect the console to normal Wi-Fi, an internet-enabled phone hotspot, o
 1. Choose **Delete** to confirm and remove the saved network
 1. Repeat this process for all registered networks.
 
-Later in the guide, we will show how to create an isolated network to communicate with the console without connecting to the internet. 
+Later in the guide, we will show how to create an isolated network to communicate with the console without connecting to the internet.

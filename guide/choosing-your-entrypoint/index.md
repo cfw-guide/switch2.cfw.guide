@@ -1,5 +1,6 @@
 ---
 title: Choosing Your Entrypoint
+next: false
 ---
 
 # Choosing Your Entrypoint
@@ -27,7 +28,7 @@ Continue to [Preparing CivSwitch](/guide/preparing-civswitch/)
 
 **SmileBasic 4** is another title that can be used as an entry point for homebrew. This game is an eShop only title, and the correct version (v4.4.9) was only available for a few hours before Nintendo pulled it from the store.
 
-SmileBasic 4 can be modified using [ns2jb kaiHEN](https://gitlab.com/kurumuz/ns2jb). This guide focuses on using the Raspberry Pi Pico 2 W to create a network bridge, and the software setup for this board is not complete yet.
+SmileBasic 4 can be modified using [ns2jb kaiHEN](https://gitlab.com/kurumuz/ns2jb).
 
 
 ## Other titles
