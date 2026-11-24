@@ -27,7 +27,7 @@ The following games are usable as an entry point to homebrew:
 
 The demo versions of these games are also compatible.
 
-# FunctionBlackList (SuperNag)
+# FunctionBlackList
 
 If your console has connected to Nintendo's servers after 12th November 2026, you will no longer be able to use homebrew.
 
