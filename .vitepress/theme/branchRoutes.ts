@@ -17,7 +17,7 @@ export const branchPages: Record<Branch, BranchPage[]> = {
     { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
     { text: 'Installing the CivSwitch Trigger', link: '/installing-civswitch-trigger/' },
     { text: 'Installing kaiHEN (CivSwitch)', link: '/installing-kaihen-(civswitch)/' },
-    { text: 'Using kaiHEN (CivSwitch)', link: '/using-kaihen-(civswitch)/' }
+    { text: 'Using kaiHEN', link: '/using-kaihen/' }
   ]
 }
 
