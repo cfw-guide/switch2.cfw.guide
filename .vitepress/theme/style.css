@@ -17,6 +17,16 @@
     linear-gradient(90deg, rgba(126, 87, 194, 0.12), rgba(72, 130, 255, 0.16));
 }
 
+.VPNavBar.home,
+.VPNavBar.home.top {
+  background: transparent;
+  border-bottom-color: transparent;
+}
+
+.VPNavBar.home .divider {
+  background: transparent;
+}
+
 .VPHomeHero::before {
   content: '';
   position: absolute;
