@@ -24,7 +24,7 @@ Use this option with a Raspberry Pi Pico 2 W.
 
 -->
 
-### 1. Flash the bridge
+## Flash the bridge
 
 1. Download [`firmware/pico2w-bridge.uf2`](https://github.com/favas0/CivSwitch-Pico2W-SerialBridge/blob/main/firmware/pico2w-bridge.uf2) from the [Pico 2 W project](https://github.com/favas0/CivSwitch-Pico2W-SerialBridge).
 1. Hold **BOOTSEL** on the Pico 2 W while connecting it to the PC with a USB data cable.
@@ -34,7 +34,7 @@ Use this option with a Raspberry Pi Pico 2 W.
 
 The open Wi-Fi network `Switch2Bridge` will start automatically. It has no password.
 
-### 2. Configure the Switch 2
+## Configure the Switch 2
 
 1. Connect the Switch 2 to `Switch2Bridge`.
 1. Open **System Settings** -> **Internet** -> **Internet Settings**.
@@ -49,7 +49,7 @@ The open Wi-Fi network `Switch2Bridge` will start automatically. It has no passw
 
 Do not use `192.168.4.2` manually if another device has already received that address.
 
-### 3. Install the Python sender
+## Install the Python sender
 
 Download the [Pico 2 W project](https://github.com/favas0/CivSwitch-Pico2W-SerialBridge). From the repository directory, install its dependencies:
 
@@ -59,7 +59,7 @@ python -m pip install -r requirements.txt
 
 Close any Serial Monitor or other program using the Pico 2 W's serial port.
 
-### 4. Test the bridge
+## Test the bridge
 
 Start CivSwitch's Remote JS Loader on the Switch 2.
 

@@ -5,7 +5,7 @@ next: false
 
 # Checking Firmware Version
 
-### Required Reading
+## Required Reading
 
 Currently, the only version compatible with homebrew on the Nintendo Switch 2 is **23.0.1**. If you are running a firmware version greater than this, you cannot downgrade your firmware or use homebrew.
 
@@ -21,7 +21,7 @@ Always keep your console disconnected from Nintendo's servers to avoid being bla
 
 :::
 
-### Finding your firmware version
+## Finding your firmware version
 
 1. Power on your Nintendo Switch 2 console.
 2. Navigate to the **System Settings** from the home menu.
@@ -30,7 +30,7 @@ Always keep your console disconnected from Nintendo's servers to avoid being bla
 
 ![Finding your firmware version](./update.png)
 
-### Version Table
+## Version Table
 | From | To | |
 |------|----|-|
 | 19.0.0 | 23.0.0 | [Updating to 23.0.1](/guide/updating-to-23.0.1/) |

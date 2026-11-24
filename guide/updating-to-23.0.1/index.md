@@ -36,14 +36,14 @@ Complete the following steps on both consoles:
 1. Power on the console.
 1. Navigate to the HOME menu.
 1. Highlight the game you want to use (do not launch it).
-1. Press the "+" or "-" button.
-1. Select "Software Update" -> "Match Version with Local Users".
-1. Select "Next".
+1. Press the **+** or **-** button.
+1. Select **Software Update** -> **Match Version with Local Users**.
+1. Select **Next**.
 
 Now on individual consoles:
 
-1. On the donor console, select "Create Group".
-1. On the recipient console, select "Join Group".
-1. Once connected, select "Start Communication" on the donor console.
+1. On the donor console, select **Create Group**.
+1. On the recipient console, select **Join Group**.
+1. Once connected, select **Start Communication** on the donor console.
 
 The consoles will now update the recipient console to match the system firmware version of the donor console.
