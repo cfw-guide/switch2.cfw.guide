@@ -59,14 +59,27 @@ function handleViewportChange() {
   if (open.value) positionTooltip()
 }
 
+function handleOutsidePointer(event: PointerEvent) {
+  if (!open.value) return
+
+  const target = event.target
+  if (!(target instanceof Node)) return
+
+  if (!triggerRef.value?.contains(target) && !tooltipRef.value?.contains(target)) {
+    close()
+  }
+}
+
 onMounted(() => {
   window.addEventListener('resize', handleViewportChange)
   window.addEventListener('scroll', handleViewportChange, true)
+  document.addEventListener('pointerdown', handleOutsidePointer)
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', handleViewportChange)
   window.removeEventListener('scroll', handleViewportChange, true)
+  document.removeEventListener('pointerdown', handleOutsidePointer)
 })
 </script>
 
