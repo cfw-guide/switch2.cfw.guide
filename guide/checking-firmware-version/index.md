@@ -1,5 +1,6 @@
 ---
 title: "Checking Firmware Version"
+next: false
 ---
 
 # Checking Firmware Version
