@@ -20,7 +20,7 @@ Remember that it is **not required** to update to 23.0.1. The exploit used in 23
 
 :::
 
-### Requirements
+## Requirements
 
 - A recipient console running 23.0.0 or below.
 - A donor console running 23.0.1.
@@ -29,7 +29,14 @@ Remember that it is **not required** to update to 23.0.1. The exploit used in 23
 
 This requirement can be difficult to meet. For example, suppose the recipient console is on 22.5.0 and the donor console is on 23.0.1 with Ocarina of Time v1.1.1 installed. Because that game version requires a newer firmware than 22.5.0, the recipient will be prompted to update to 23.0.1 during the local match.
 
-### Updating via Local Match
+### Known Compatible Game Versions
+
+| Title | Version |
+|-------|---------|
+| Ocarina of Time | 1.1.1 |
+| Mario Kart World | 1.8.0 |
+
+## Updating via Local Match
 
 Complete the following steps on both consoles:
 
