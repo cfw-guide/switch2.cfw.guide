@@ -12,7 +12,7 @@ This section covers preparing and flashing a Raspberry Pi Pico so it can send th
 
 - A compatible Raspberry Pi Pico 1 (W) or Pico 2 (W).
 - A USB cable that supports data.
-- A PC running Windows, macOS, or Linux.
+- A computer running Windows, macOS, or Linux.
 - A Civilization VII v1.0.0 game cartridge.
 
 ## Download the firmware
@@ -34,7 +34,7 @@ Do not use the JIS firmware unless the Switch is configured for a JIS keyboard l
 
 1. Disconnect the Pico from all devices.
 2. Hold the Pico's **BOOTSEL** button.
-3. Connect the Pico to the PC with a USB data cable while continuing to hold **BOOTSEL**.
+3. Connect the Pico to your computer with a USB data cable while continuing to hold **BOOTSEL**.
 4. Release **BOOTSEL** once a removable drive named `RPI-RP2` or `RP2350` appears.
 5. Copy the selected `.uf2` file onto that drive.
 6. The drive will disconnect and the Pico will reboot automatically.
@@ -65,4 +65,4 @@ The payload takes about 20 minutes to type. Do not unplug the Pico or interact w
 
 Once it finishes, the Remote JS Loader should appear on the console and listen on TCP port `9026`.
 
-We will now leave the console with the loader running while we set up an isolated network so the PC and console can communicate safely.
+We will now leave the console with the loader running while we set up an isolated network so your computer and console can communicate safely.

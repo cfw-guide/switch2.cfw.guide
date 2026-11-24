@@ -28,15 +28,15 @@ This process can permanently damage your console. If you are not comfortable wit
 - A FAT32 or exFAT microSD card inserted in the console
 - [Node.js 22](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on your computer
 
-The microSD card does not need to contain the files from the kaiHEN release. The `hen.cjs` launcher reads those files directly from the PC and stages its required files through the filesystem exploit.
+The microSD card does not need to contain the files from the kaiHEN release. The `hen.cjs` launcher reads those files directly from your computer and stages its required files through the filesystem exploit.
 
-## Prepare the PC
+## Prepare your computer
 
 1. Download the [ns2jb source archive](https://gitlab.com/kurumuz/ns2jb/-/archive/main/ns2jb-main.zip) 
 1. Extract the `.zip` file.
 1. Open the extracted `ns2jb-main` folder in a terminal.
 1. Download the latest [kaiHEN release](https://github.com/ouncebrew/kaihen/releases/latest)
-1. Extract the downloaded kaiHEN release to a folder on your PC.
+1. Extract the downloaded kaiHEN release to a folder on your computer.
 
 ## Start kaiHEN
 
@@ -45,7 +45,7 @@ The microSD card does not need to contain the files from the kaiHEN release. The
 1. Open SmileBasic 4 and press "Make a Program"
 1. Ensure you are in **Direct mode**.
     - This is the default mode when creating a new program in SmileBasic.
-1. Leave SmileBasic open and return to the PC.
+1. Leave SmileBasic open and return to your computer.
 1. Connect your computer to the same network as the Switch 2.
     - Ensure you are using an [isolated network](/guide/using-90dns-on-pico-1-2-w/)
 1. Find your computer's local IP address.
@@ -67,7 +67,7 @@ The microSD card does not need to contain the files from the kaiHEN release. The
     ```
 1. You should now see the `Out of memory` message after `REMOVE`.
 1. Enter the `V=START(...)` command printed by the launcher.
-    - If SmileBasic reports `Wrong number of arguments`, use the second `V=START(...)` command printed by the launcher. It will contain the port and four IP numbers, followed by `,0,0,0,0`. Do not repeat `RUN` or `REMOVE`; enter only the replacement `START` command while the PC is still waiting.
+    - If SmileBasic reports `Wrong number of arguments`, use the second `V=START(...)` command printed by the launcher. It will contain the port and four IP numbers, followed by `,0,0,0,0`. Do not repeat `RUN` or `REMOVE`; enter only the replacement `START` command while your computer is still waiting.
 1. Keep SmileBasic open and keep your computer awake until the launcher prints:
     ```text
     HEN launch completed!

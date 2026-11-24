@@ -12,7 +12,7 @@ You will need:
 
 - A compatible Raspberry Pi Pico 1 (W) or Pico 2 (W).
 - A USB cable that supports data.
-- A PC running Windows, macOS, or Linux.
+- A computer running Windows, macOS, or Linux.
 - SmileBasic 4 v4.4.9 or the compatible demo version.
 - More than 20 MiB of free space in a SmileBasic save.
 
@@ -33,7 +33,7 @@ Do not use JIS firmware unless the Switch is configured for a JIS keyboard layou
 
 1. Disconnect the Pico from all devices.
 2. Hold the Pico's **BOOTSEL** button.
-3. Connect the Pico to the PC with a USB data cable while continuing to hold **BOOTSEL**.
+3. Connect the Pico to the computer with a USB data cable while continuing to hold **BOOTSEL**.
 4. Release **BOOTSEL** once a removable drive named `RPI-RP2` or `RP2350` appears.
 5. Copy the selected `.uf2` file onto that drive.
 6. The drive will disconnect and the Pico will reboot automatically.

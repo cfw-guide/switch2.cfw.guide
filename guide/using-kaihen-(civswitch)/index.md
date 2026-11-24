@@ -48,7 +48,7 @@ You can also use OunceShell from `/switch/ounceshell/ounceshell.nro` to browse a
 
 ## Using OunceShell
 
-OunceShell is a file manager for the Switch 2 that allows you to browse and manage files on the microSD card. You can also create an FTP server to transfer files between the console and a PC.
+OunceShell is a file manager for the Switch 2 that allows you to browse and manage files on the microSD card. You can also create an FTP server to transfer files between the console and your computer.
 
 ## Restart or exit
 

@@ -11,12 +11,13 @@ The initial USB payload is only active while the Remote JS Loader session is run
 You will need:
 
 - The CivSwitch Remote JS Loader running on the Switch 2.
-- A PC that can communicate directly with the console over the same network.
+- A computer connected to the same network as the console.
+    - Ensure you are using an [isolated network](/guide/using-90dns-on-pico-1-2-w/).
 - Python 3 and Git.
 
 ## Install the trigger
 
-On the PC, clone the CivSwitch repository and install the required dependencies:
+On your computer, clone the CivSwitch repository and install the required dependencies:
 
 ```sh
 git clone https://github.com/Gezine/CivSwitch.git

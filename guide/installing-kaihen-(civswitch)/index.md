@@ -27,11 +27,11 @@ Before continuing, read the [brick risk information](https://github.com/s8n/CivS
 - A Switch 2 running firmware **23.0.1**
 - Civilization VII v1.0.0
 - The [CivSwitch Remote JS Loader](https://github.com/Gezine/CivSwitch) running on the console
-- [Node.js 20](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on the PC
+- [Node.js 20](https://nodejs.org/) or later and [npm](https://www.npmjs.com) on your computer
 - A FAT32 or exFAT microSD card
     - A system update is required for exFAT support. If you have not completed the update, you must use FAT32.
     
-## Prepare the PC
+## Prepare your computer
 
 Clone the `slop` branch, because the repository's active development branch is not `main`:
 
@@ -45,7 +45,7 @@ Keep this repository folder available and update it whenever the project is upda
 
 ## Prepare the microSD card
 
-1. Insert the microSD card into the PC.
+1. Insert the microSD card into your computer.
 1. Format the microSD card as FAT32 or exFAT, depending on your system update status.
 1. Download the latest `.zip` file from [CivSwitchFS-kaiHEN](https://github.com/s8n/CivSwitchFS-kaiHEN/releases/latest) 
 
@@ -68,7 +68,7 @@ Insert the microSD card into the console before starting.
 2. From the main menu, select **Load Game**.
 3. Wait until the CivSwitch console reports `Awaiting payload`.
 4. Find the Switch 2's current IP address in the console's network settings.
-5. On the PC, run this command from the cloned repository folder:
+5. On your computer, run this command from the cloned repository folder:
 
 ```sh
 npm run persist:chain -- <console-ip>

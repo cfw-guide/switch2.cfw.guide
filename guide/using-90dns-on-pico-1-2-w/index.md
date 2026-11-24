@@ -10,7 +10,7 @@ A Raspberry Pi Pico 2 W can run 90DNS and create a private Wi-Fi network for you
 
 The Pico has two roles:
 
-- It provides a local Wi-Fi network that the PC and console can use to communicate.
+- It provides a local Wi-Fi network that your computer and console can use to communicate.
 - It answers connection checks and blocks Nintendo domains.
 
 ::: warning
@@ -23,8 +23,8 @@ Do not connect the Switch 2 to the internet through a normal Wi-Fi network or ph
 
 - A Raspberry Pi Pico 1/2 W
 - A USB data cable
-- A PC
-- A browser on a PC or phone
+- A computer
+- A browser on your computer or phone
 
 ## Download the firmware
 
@@ -36,7 +36,7 @@ Download the firmware for your device below:
 
 1. Disconnect the Pico 2 W from USB.
 1. Hold **BOOTSEL** on the Pico.
-1. Connect the Pico to the PC with a USB data cable.
+1. Connect the Pico to your computer with a USB data cable.
 1. Release **BOOTSEL** after a removable drive named `RP2350` appears.
 1. Copy `90dnspico-v0.1.0-pico-2-w.uf2` onto the drive.
 1. Wait for the Pico to disconnect and reboot.
@@ -47,7 +47,7 @@ Flashing again preserves existing settings. To erase the settings completely, er
 
 On first setup, or after resetting the firmware, the Pico creates an open Wi-Fi network named `90DNSpico-init`.
 
-1. On a PC or phone, connect to `90DNSpico-init`.
+1. On your computer or phone, connect to `90DNSpico-init`.
 1. Open `http://192.168.90.1/` in a browser.
 1. If the browser does not open the setup page automatically, use the IP address shown above.
 1. Select **own network** mode.
@@ -64,7 +64,7 @@ The Pico will now host `90DNSpico` with:
 
 ## Verify 90DNS
 
-On your PC or phone connected to `90DNSpico`, open [http://90dns.test](http://90dns.test).
+On your computer or phone connected to `90DNSpico`, open [http://90dns.test](http://90dns.test).
 
 If the page says **"You are successfully connected to 90DNS. Happy hacking!"**, the Pico is blocking Nintendo's DNS requests correctly.
 
@@ -85,9 +85,9 @@ The Pico responds to Nintendo connection tests, and it deliberately answers Nint
 
 To find the Switch 2 IP address, open the network settings and check the connected network's details. It will normally be between `192.168.90.10` and `192.168.90.41`.
 
-## Connect the PC
+## Connect your computer
 
-Connect the PC to the same `90DNSpico` Wi-Fi network. The PC and Switch 2 can then communicate with each other directly without connecting to the internet.
+Connect your computer to the same `90DNSpico` Wi-Fi network. The computer and Switch 2 can then communicate with each other directly without connecting to the internet.
 
 In a terminal, use the Switch 2's displayed IP address whenever a command asks for `<console-ip>`.
 

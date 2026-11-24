@@ -24,7 +24,7 @@ The setup for homebrew is not simple. You will need the knowledge of how to use 
 
 - A Nintendo Switch 2 running firmware 23.0.1 or below
 - A vulnerable game required for the userland exploit
-- A PC with [Python](https://www.python.org/) installed
+- A computer with [Python](https://www.python.org/) installed
 - A microSD card for the console
 - A microcontroller board such as the [Raspberry Pi Pico 2 W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
 
