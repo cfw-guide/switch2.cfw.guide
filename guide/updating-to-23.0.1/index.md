@@ -12,7 +12,7 @@ Always keep your console disconnected from Nintendo's servers to avoid being bla
 
 While 23.0.1 is not the latest firmware version, Nintendo offers a feature called "Match Version with Local Users" that is intended to allow users to update their game to the same version as another console nearby. Luckily for us, it also works for updating the system firmware itself.
 
-This does not require an internet connection and will not transfer a blacklist status from one console to another.
+This does not require an internet connection. It is worth noting that neither a blacklist status nor exFAT license will be transferred over.
 
 ::: warning
 
@@ -25,9 +25,9 @@ Remember that it is **not required** to update to 23.0.1. The exploit used in 23
 - A recipient console running 23.0.0 or below.
 - A donor console running 23.0.1.
 - A game cartridge or a game installed on both the recipient and donor consoles.
-  - The donor console must have a later version of the game installed than the recipient console.
+  - The donor console must have a game update that requires a newer system version than the one installed on the recipient console.
 
-These can be tricky requirements to meet, as finding a donor console with the correct game version may not be straightforward. In the future, it may be possible to update using just a game cartridge. Many game cartridges contain system updates that can be applied without needing an internet connection. At the time of writing, no cartridge has been confirmed to contain 23.0.1.
+This requirement can be difficult to meet. For example, suppose the recipient console is on 22.5.0 and the donor console is on 23.0.1 with Ocarina of Time v1.1.1 installed. Because that game version requires a newer firmware than 22.5.0, the recipient will be prompted to update to 23.0.1 during the local match.
 
 ### Updating via Local Match
 
