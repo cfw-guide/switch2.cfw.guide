@@ -8,7 +8,14 @@ There are several entry points available for running homebrew on the Nintendo Sw
 
 ### Civilization VII
 
-**Civilization VII** is a Nintendo Switch game that can be used as an entry point for homebrew. This title is preferable as it is in a cartridge format that cannot be patched without updating. Ensure you have the correct version (v1.0.0) installed.
+**Civilization VII** is a Nintendo Switch game that can be used as an entry point for homebrew. This title is preferable as it is in a cartridge format that cannot be patched without updating.
+
+There are three variants of the game available:
+- **Nintendo Switch 1 (Cartridge)**
+- Nintendo Switch 1 (Code in box)
+- Nintendo Switch 2 (Code in box)
+
+You must buy the **cartridge version** of the game to use as an entry point, as the exploit only works on v1.0.0 of the game. At the time of writing, all cartridges ship with this version.
 
 ::: tip
 
