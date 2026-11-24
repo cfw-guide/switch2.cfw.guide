@@ -6,7 +6,7 @@ next: false
 
 # Using 90DNS on the Raspberry Pi Pico 1/2 W
 
-A Raspberry Pi Pico 2 W can run 90DNS and create a private Wi-Fi network for your Switch 2. This is the safest setup as it prevents Nintendo and the rest of the internet from reaching the console.
+A Raspberry Pi Pico 1 or 2 W can run 90DNS and create a private Wi-Fi network for your Switch 2. This is the safest setup as it prevents Nintendo and the rest of the internet from reaching the console.
 
 The Pico has two roles:
 
@@ -32,13 +32,13 @@ Download the firmware for your device below:
 - **Pico 1 W:** [90dnspico-v0.1.0-pico-w.uf2](https://gitlab.com/a/90dns/-/releases/pico-v0.1.0/downloads/90dnspico-v0.1.0-pico-w.uf2)
 - **Pico 2 W:** [90dnspico-v0.1.0-pico-2-w.uf2](https://gitlab.com/a/90dns/-/releases/pico-v0.1.0/downloads/90dnspico-v0.1.0-pico-2-w.uf2)
 
-## Flash the Pico 2 W
+## Flash the Pico
 
-1. Disconnect the Pico 2 W from USB.
+1. Disconnect the Pico from USB.
 1. Hold **BOOTSEL** on the Pico.
 1. Connect the Pico to your computer with a USB data cable.
 1. Release **BOOTSEL** after a removable drive named `RP2350` appears.
-1. Copy `90dnspico-v0.1.0-pico-2-w.uf2` onto the drive.
+1. Copy the downloaded `.uf2` file onto the drive.
 1. Wait for the Pico to disconnect and reboot.
 
 Flashing again preserves existing settings. To erase the settings completely, erase the flash and flash the UF2 again.

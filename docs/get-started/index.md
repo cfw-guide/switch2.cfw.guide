@@ -28,7 +28,7 @@ The setup for homebrew is not simple. You will need the knowledge of how to use 
 - A microSD card for the console
 - A microcontroller board such as the [Raspberry Pi Pico 2 W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
 
-Other microcontrollers such as an ESP32 can also be used, however this guide only focuses on the Pico 2 W.
+Other microcontrollers such as an ESP32 can also be used, however this guide only focuses on the Pico 1 and 2 W.
 
 <RiskAcknowledgement />
 

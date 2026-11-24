@@ -8,7 +8,7 @@ To avoid being blacklisted by Nintendo and losing access to homebrew, it is very
 
 If the console has connected to Nintendo's servers after **12th November 2026**, it will lose the ability to use homebrew.
 
-The safest way to ensure the console remains disconnected is to use a network setup that is completely isolated from the internet. This guide will cover how to use a **Raspberry Pi Pico 2 W** to achieve this.
+The safest way to ensure the console remains disconnected is to use a network setup that is completely isolated from the internet. This guide will cover how to use a **Raspberry Pi Pico 1 or 2 W** to achieve this.
 
 ::: warning
 
