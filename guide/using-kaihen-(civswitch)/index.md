@@ -1,10 +1,10 @@
 ---
-title: Using kaiHEN
+title: Using kaiHEN (CivSwitch)
 prev: false
 next: false
 ---
 
-# Using kaiHEN
+# Using kaiHEN (CivSwitch)
 
 kaiHEN allows you to open the homebrew menu and launch homebrew applications while it is running.
 

@@ -6,7 +6,7 @@ next: false
 
 # Using 90DNS on the Raspberry Pi Pico 1/2 W
 
-A Raspberry Pi Pico 2 W can run 90DNS and create a private Wi-Fi network for your Switch 2. This is the safest setup for CivSwitch because it prevents Nintendo and the rest of the internet from reaching the console.
+A Raspberry Pi Pico 2 W can run 90DNS and create a private Wi-Fi network for your Switch 2. This is the safest setup as it prevents Nintendo and the rest of the internet from reaching the console.
 
 The Pico has two roles:
 
@@ -89,7 +89,7 @@ To find the Switch 2 IP address, open the network settings and check the connect
 
 Connect the PC to the same `90DNSpico` Wi-Fi network. The PC and Switch 2 can then communicate with each other directly without connecting to the internet.
 
-In a terminal, use the Switch 2's displayed IP address whenever a CivSwitch command asks for `<console-ip>`.
+In a terminal, use the Switch 2's displayed IP address whenever a command asks for `<console-ip>`.
 
 For example:
 
@@ -110,18 +110,7 @@ The settings page can show:
 - The devices receiving DHCP leases
 - Whether the Pico's own watchdog restarted it
 
-## Reset or erase the Pico
-
-To reset all Pico settings without reflashing:
-
-1. While the Pico is running, hold **BOOTSEL**.
-1. Keep holding it until the LED starts flickering.
-1. Release **BOOTSEL**.
-1. The Pico will forget its settings and return to the `90DNSpico-init` setup network.
-
-Do not restart the Pico by holding BOOTSEL if you intend to keep the flash bootloader from appearing. The reset procedure waits for you to release the button first.
-
-To erase settings by using the flash, erase the whole Pico flash with a flash-nuke UF2 and then install `90dnspico-v0.1.0-pico-2-w.uf2` again.
+For uninstalling 90DNS on the Pico, refer to the official [documentation](https://gitlab.com/a/90dns/-/tree/master/PicoW)
 
 ## LED status
 

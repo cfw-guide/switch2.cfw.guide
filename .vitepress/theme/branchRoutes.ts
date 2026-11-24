@@ -9,14 +9,15 @@ export const branchPages: Record<Branch, BranchPage[]> = {
   smilebasic: [
     { text: 'Preparing SmileBasic', link: '/guide/preparing-smilebasic/' },
     { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
-    { text: 'Using kaiHEN', link: '/guide/using-kaihen/' }
+    { text: 'Installing kaiHEN (SmileBasic)', link: '/guide/installing-kaihen-(smilebasic)/' },
+    { text: 'Using kaiHEN (SmileBasic)', link: '/guide/using-kaihen-(smilebasic)/' }
   ],
   civswitch: [
     { text: 'Preparing CivSwitch', link: '/guide/preparing-civswitch/' },
     { text: 'Using 90DNS on Pico 1/2 W', link: '/guide/using-90dns-on-pico-1-2-w/' },
     { text: 'Installing the CivSwitch Trigger', link: '/guide/installing-civswitch-trigger/' },
     { text: 'Installing kaiHEN (CivSwitch)', link: '/guide/installing-kaihen-(civswitch)/' },
-    { text: 'Using kaiHEN', link: '/guide/using-kaihen/' }
+    { text: 'Using kaiHEN (CivSwitch)', link: '/guide/using-kaihen-(civswitch)/' }
   ]
 }
 

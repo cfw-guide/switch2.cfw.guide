@@ -53,10 +53,17 @@ These settings can be restored after setup.
 
 ## Enter the payload
 
-1. Open **Make a Program** in SmileBasic 4.
-2. Open or create an empty program and place the cursor where text entry can begin.
-3. In docked mode, connect the flashed Pico to the console.
-4. Wait for the Pico to enter the payload automatically.
+1. Press **Make a Program** in SmileBasic 4.
+1. Press **X** to enter edit mode.
+1. In docked mode, connect the flashed Pico to the console.
+1. Wait for the Pico to enter the payload automatically.
+1. Once it's finished, press **-** to open the program menu.
+1. Press **Simple Save** and enter "NS2" as the filename.
+    - If you're using the demo, you have to use this code to save the file instead:
+    ```
+    PRGEDIT 0:C$="":FOR I=0 TO PRGSIZE(0)-1:C$=C$+PRGGET$() :NEXT:SAVEV "TXT:NS2",C$
+    ```
+1. Exit to the HOME menu.
 
 Do not unplug the Pico or interact with the editor while it is typing.
 

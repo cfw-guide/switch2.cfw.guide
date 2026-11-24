@@ -57,15 +57,8 @@ watch(() => route.path, (path) => {
 })
 
 onMounted(() => {
-  if (route.path.includes('preparing-smilebasic')) setBranch('smilebasic')
-  else if (
-    route.path.includes('preparing-civswitch') ||
-    route.path.includes('updating-to-23.0.1') ||
-    route.path.includes('civswitch-trigger') ||
-    route.path.includes('kaihen-(civswitch)')
-  ) {
-    setBranch('civswitch')
-  }
+  if (route.path.includes('smilebasic')) setBranch('smilebasic')
+  else if (route.path.includes('civswitch')) setBranch('civswitch')
   else if (
     route.path.includes('/guide/get-started/') ||
     route.path.includes('/guide/disconnecting-from-internet/') ||
