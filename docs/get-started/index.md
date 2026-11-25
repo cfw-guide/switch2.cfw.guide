@@ -41,9 +41,9 @@ The microcontroller is responsible for delivering the payload to the console. Th
 There are several other devices that can be used for this:
 - [civswitch-esp32-s3](https://github.com/flex36ty/civswitch-esp32-s3) for ESP32-S3
 - [CivSwitchLDN](https://github.com/ItsNerisma/CivSwitchLDN) for Linux devices
+    - Requires `prod.keys` from a hacked Switch 1
 - [mac2jb](https://github.com/cpypwn/mac2jb) for devices running macOS
     - Not recommended as it requires disabling system integrity protection (SIP)
-    - Requires `prod.keys` from a hacked Switch 1
 - Typing in manually with a USB keyboard (This can take a very long time)
 
 #### Network setup
