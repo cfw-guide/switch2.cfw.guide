@@ -217,6 +217,86 @@
   margin-bottom: 0;
 }
 
+.faq-dropdown > summary {
+  color: color-mix(in srgb, var(--vp-c-brand-1) 70%, var(--vp-c-bg) 30%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.faq-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-dropdown > summary::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid currentColor;
+  flex: none;
+  transition: transform 0.2s;
+}
+
+.faq-dropdown > summary > span {
+  position: relative;
+}
+
+.faq-dropdown > summary > span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  border-bottom: 1px dotted currentColor;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.faq-dropdown > summary:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.faq-dropdown > summary:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+}
+
+.faq-dropdown[open] > summary {
+  color: var(--vp-c-brand-1);
+}
+
+.faq-dropdown[open] > summary > span::after {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.faq-dropdown[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.faq-dropdown-answer {
+  padding: 0 0 16px 24px;
+  color: var(--vp-c-text-2);
+}
+
+.faq-dropdown-answer > :first-child {
+  margin-top: 0;
+}
+
+.faq-dropdown-answer > :last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-dropdown > summary::before,
+  .faq-dropdown > summary > span::after {
+    transition: none;
+  }
+}
+
 .branch-sidebar {
   margin-top: -24px;
 }
