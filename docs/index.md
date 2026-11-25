@@ -35,7 +35,7 @@ If your console has connected to Nintendo's servers after 12th November 2026, yo
 
 The FunctionBlackList is a feature that allows Nintendo to remotely block certain versions of games on the Nintendo Switch 2. This can prevent homebrew from being launched through affected entry points. By connecting your console to the internet, you risk losing access to these entrypoints, as they are blacklisted by Nintendo.
 
-To avoid being affected by this, it is recommended to **keep your console disconnected from the internet** if you intend to use homebrew. Follow [Disconnecting from the Internet](/disconnecting-from-internet/) before proceeding. DNS solutions such as [90DNS](https://gitlab.com/a/90dns) can provide protection, but some ISPs can hijack DNS requests and make this method ineffective.
+To avoid being affected by this, it is recommended to **keep your console disconnected from the internet** if you intend to use homebrew. Follow [Disconnecting from the Internet](/disconnecting-from-internet/) before proceeding. DNS solutions such as [90DNS](https://gitlab.com/a/90dns) can provide protection, but some ISPs can hijack DNS requests and make this method ineffective. We recommend hosting [90DNS locally using a Raspberry Pi Pico W or Pico 2 W](/using-90dns-on-pico-w/) for maximum protection.
 
 # Risk of damage
 
