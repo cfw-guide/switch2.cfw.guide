@@ -26,7 +26,7 @@ No. A standard microSD card can store homebrew. Any system can use a FAT32 forma
 
 ## Can I connect to Nintendo's servers?
 
-Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline or using an [isolated 90DNS Pico network](/using-90dns-on-pico-1-2-w/).
+Connecting to Nintendo's servers will result in any homebrew entry points being blacklisted and prevent you from launching homebrew. We strongly recommend leaving your console offline or using an [isolated 90DNS Pico network](/using-90dns-on-pico-w/).
 
 ## Can this brick my console?
 

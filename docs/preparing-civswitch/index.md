@@ -10,7 +10,7 @@ CivSwitch uses the Civilization VII v1.0.0 game cartridge to gain <Definition te
 
 This section covers preparing and flashing a Raspberry Pi Pico so it can send the CivSwitch payload. You will need:
 
-- A compatible Raspberry Pi Pico 1 (W) or Pico 2 (W).
+- A compatible Raspberry Pi Pico (W) or Pico 2 (W).
 - A USB cable that supports data.
 - A computer running Windows, macOS, or Linux.
 - A Civilization VII v1.0.0 game cartridge.
@@ -23,8 +23,8 @@ Choose the UF2 firmware that matches both your Pico board and your console's inp
 
 | Board | English (US) | Japanese |
 |------|--------------|----------|
-| Raspberry Pi Pico 1 / RP2040 | `civ7-pico1.uf2` | `civ7-pico1-jis.uf2` |
-| Raspberry Pi Pico 1 W / RP2040 | `civ7-pico1_w.uf2` | `civ7-pico1-jis.uf2` |
+| Raspberry Pi Pico / RP2040 | `civ7-pico1.uf2` | `civ7-pico1-jis.uf2` |
+| Raspberry Pi Pico W / RP2040 | `civ7-pico1_w.uf2` | `civ7-pico1-jis.uf2` |
 | Raspberry Pi Pico 2 / RP2350 | `civ7-pico2.uf2` | `civ7-pico2-jis.uf2` |
 | Raspberry Pi Pico 2 W / RP2350 | `civ7-pico2_w.uf2` | `civ7-pico2-jis.uf2` |
 

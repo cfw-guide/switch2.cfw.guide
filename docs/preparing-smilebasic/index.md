@@ -10,7 +10,7 @@ SmileBasic 4 can be used as an alternate entry point to kaiHEN. This section cov
 
 You will need:
 
-- A compatible Raspberry Pi Pico 1 (W) or Pico 2 (W).
+- A compatible Raspberry Pi Pico (W) or Pico 2 (W).
 - A USB cable that supports data.
 - A computer running Windows, macOS, or Linux.
 - SmileBasic 4 v4.4.9 or the compatible demo version.
@@ -22,8 +22,8 @@ Choose the UF2 firmware that matches both your Pico board and your console's inp
 
 | Board | English (US) | Japanese |
 |------|--------------|----------|
-| Raspberry Pi Pico 1 / RP2040 | [sm4-pico1.uf2](/files/sm4-pico1.uf2) | [sm4-pico1-jis.uf2](/files/sm4-pico1-jis.uf2) |
-| Raspberry Pi Pico 1 W / RP2040 | [sm4-pico1_w.uf2](/files/sm4-pico1_w.uf2) | [sm4-pico1_w-jis.uf2](/files/sm4-pico1_w-jis.uf2) |
+| Raspberry Pi Pico / RP2040 | [sm4-pico1.uf2](/files/sm4-pico1.uf2) | [sm4-pico1-jis.uf2](/files/sm4-pico1-jis.uf2) |
+| Raspberry Pi Pico W / RP2040 | [sm4-pico1_w.uf2](/files/sm4-pico1_w.uf2) | [sm4-pico1_w-jis.uf2](/files/sm4-pico1_w-jis.uf2) |
 | Raspberry Pi Pico 2 / RP2350 | [sm4-pico2.uf2](/files/sm4-pico2.uf2) | [sm4-pico2-jis.uf2](/files/sm4-pico2-jis.uf2) |
 | Raspberry Pi Pico 2 W / RP2350 | [sm4-pico2_w.uf2](/files/sm4-pico2_w.uf2) | [sm4-pico2_w-jis.uf2](/files/sm4-pico2_w-jis.uf2) |
 

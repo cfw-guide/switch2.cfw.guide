@@ -8,13 +8,13 @@ export interface BranchPage {
 export const branchPages: Record<Branch, BranchPage[]> = {
   smilebasic: [
     { text: 'Preparing SmileBasic', link: '/preparing-smilebasic/' },
-    { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
+    { text: 'Using 90DNS on Raspberry Pi Pico', link: '/using-90dns-on-pico-w/' },
     { text: 'Installing kaiHEN (SmileBasic)', link: '/installing-kaihen-(smilebasic)/' },
     { text: 'Using kaiHEN', link: '/using-kaihen/' }
   ],
   civswitch: [
     { text: 'Preparing CivSwitch', link: '/preparing-civswitch/' },
-    { text: 'Using 90DNS on Pico 1/2 W', link: '/using-90dns-on-pico-1-2-w/' },
+    { text: 'Using 90DNS on Raspberry Pi Pico', link: '/using-90dns-on-pico-w/' },
     { text: 'Installing the CivSwitch Trigger', link: '/installing-civswitch-trigger/' },
     { text: 'Installing kaiHEN (CivSwitch)', link: '/installing-kaihen-(civswitch)/' },
     { text: 'Using kaiHEN', link: '/using-kaihen/' }
