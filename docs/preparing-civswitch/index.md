@@ -17,16 +17,14 @@ This section covers preparing and flashing a Raspberry Pi Pico so it can send th
 
 ## Download the firmware
 
-Download the latest [CivSwitch release](https://github.com/emiyl/CivSwitch/releases/latest) and extract the ZIP file.
-
 Choose the UF2 firmware that matches both your Pico board and your console's input language:
 
 | Board | English (US) | Japanese |
 |------|--------------|----------|
-| Raspberry Pi Pico / RP2040 | `civ7-pico1.uf2` | `civ7-pico1-jis.uf2` |
-| Raspberry Pi Pico W / RP2040 | `civ7-pico1_w.uf2` | `civ7-pico1-jis.uf2` |
-| Raspberry Pi Pico 2 / RP2350 | `civ7-pico2.uf2` | `civ7-pico2-jis.uf2` |
-| Raspberry Pi Pico 2 W / RP2350 | `civ7-pico2_w.uf2` | `civ7-pico2-jis.uf2` |
+| Raspberry Pi Pico | [civ7-pico1.uf2](/files/civ7-pico1.uf2) | [civ7-pico1-jis.uf2](/files/civ7-pico1-jis.uf2) |
+| Raspberry Pi Pico W | [civ7-pico1_w.uf2](/files/civ7-pico1_w.uf2) | [civ7-pico1_w-jis.uf2](/files/civ7-pico1_w-jis.uf2) |
+| Raspberry Pi Pico 2 | [civ7-pico2.uf2](/files/civ7-pico2.uf2) | [civ7-pico2-jis.uf2](/files/civ7-pico2-jis.uf2) |
+| Raspberry Pi Pico 2 W | [civ7-pico2_w.uf2](/files/civ7-pico2_w.uf2) | [civ7-pico2_w-jis.uf2](/files/civ7-pico2_w-jis.uf2) |
 
 Do not use the JIS firmware unless the Switch is configured for a JIS keyboard layout.
 

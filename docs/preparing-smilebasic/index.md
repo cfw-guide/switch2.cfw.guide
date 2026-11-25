@@ -22,10 +22,10 @@ Choose the UF2 firmware that matches both your Pico board and your console's inp
 
 | Board | English (US) | Japanese |
 |------|--------------|----------|
-| Raspberry Pi Pico / RP2040 | [sm4-pico1.uf2](/files/sm4-pico1.uf2) | [sm4-pico1-jis.uf2](/files/sm4-pico1-jis.uf2) |
-| Raspberry Pi Pico W / RP2040 | [sm4-pico1_w.uf2](/files/sm4-pico1_w.uf2) | [sm4-pico1_w-jis.uf2](/files/sm4-pico1_w-jis.uf2) |
-| Raspberry Pi Pico 2 / RP2350 | [sm4-pico2.uf2](/files/sm4-pico2.uf2) | [sm4-pico2-jis.uf2](/files/sm4-pico2-jis.uf2) |
-| Raspberry Pi Pico 2 W / RP2350 | [sm4-pico2_w.uf2](/files/sm4-pico2_w.uf2) | [sm4-pico2_w-jis.uf2](/files/sm4-pico2_w-jis.uf2) |
+| Raspberry Pi Pico | [sm4-pico1.uf2](/files/sm4-pico1.uf2) | [sm4-pico1-jis.uf2](/files/sm4-pico1-jis.uf2) |
+| Raspberry Pi Pico W | [sm4-pico1_w.uf2](/files/sm4-pico1_w.uf2) | [sm4-pico1_w-jis.uf2](/files/sm4-pico1_w-jis.uf2) |
+| Raspberry Pi Pico 2 | [sm4-pico2.uf2](/files/sm4-pico2.uf2) | [sm4-pico2-jis.uf2](/files/sm4-pico2-jis.uf2) |
+| Raspberry Pi Pico 2 W | [sm4-pico2_w.uf2](/files/sm4-pico2_w.uf2) | [sm4-pico2_w-jis.uf2](/files/sm4-pico2_w-jis.uf2) |
 
 Do not use JIS firmware unless the Switch is configured for a JIS keyboard layout.
 
