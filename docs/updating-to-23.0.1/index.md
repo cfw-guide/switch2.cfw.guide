@@ -37,6 +37,12 @@ This requirement can be difficult to meet. For example, suppose the recipient co
 | Mario Kart World | 1.8.0 |
 | Minecraft | 1.26.62 |
 
+::: warning
+
+Ensure you verify the game version exactly before proceeding. Update versions not listed here are not guaranteed to trigger a 23.0.1 update.
+
+:::
+
 ## Updating via Local Match
 
 Complete the following steps on both consoles:
