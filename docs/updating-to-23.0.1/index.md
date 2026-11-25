@@ -35,6 +35,7 @@ This requirement can be difficult to meet. For example, suppose the recipient co
 |-------|---------|
 | Ocarina of Time | 1.1.1 |
 | Mario Kart World | 1.8.0 |
+| Minecraft | 1.26.62 |
 
 ## Updating via Local Match
 
