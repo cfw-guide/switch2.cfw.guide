@@ -24,20 +24,39 @@ The setup for homebrew is not simple. You will need the knowledge of how to use 
 - A microSD card for the console
 - A microcontroller board such as the [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) or the [Raspberry Pi Pico 2 W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
 
-<FaqDropdown question="Do I need a Pi Pico?">
+<FaqDropdown question="Do I need a Pi Pico W?">
 
-The Raspberry Pi Pico W was chosen for its low price and ease of use, however other microcontrollers can also be used for this purpose. Several users have managed to successfully set up the exploit using alternative boards such as the ESP32:
-- [civswitch-esp32-s3](https://github.com/flex36ty/civswitch-esp32-s3) for typing the payload
-- [CivSwitch-SerialBridge](https://github.com/jackspence7/CivSwitch-SerialBridge) for communicating with the console
+::: warning
 
-The use of a microcontroller is not strictly required. At a very basic level, all that the microcontroller does is act as an automated USB keyboard, and create a local network. It is not impossible, however tedious, to simply connect the console to a keyboard and type out the payload yourself.
+The projects presented here have not been formally verified by the author of this guide. This section is here for completeness only and should not be taken as guaranteed to work.
 
-There are also apps such as [mac2jb](https://github.com/cpypwn/mac2jb) that will let your Mac emulate a keyboard and act in place of the microcontroller. We do not recommend using this however, as it disabling macOS's system integrity.
+:::
 
-If you own a Nintendo Switch 1 and a Linux device, you can also send a CivSwitch payload directly to the console with [CivSwitchLDN](https://github.com/ItsNerisma/CivSwitchLDN).
+The Raspberry Pi Pico W was chosen for its low price and ease of use, however other microcontrollers and devices can be used instead. The microcontrollers are used for two main purposes:
 
-The most important part is that you have a reliable way to communicate with the console over Wi-Fi without the console connecting to the internet. To do this safely, we must create a local network that tricks the console into thinking that it can connect to the internet, by faking some Nintendo server responses. Software exists for other devices to achieve this:
-- [SwitchNest](https://github.com/blueshockz47/SwitchNest-Hotspot) for the Steam Deck
+#### Payload delivery
+
+The microcontroller is responsible for delivering the payload to the console. This involves emulating a USB keyboard to input the necessary commands automatically.
+
+There are several other devices that can be used for this:
+- [civswitch-esp32-s3](https://github.com/flex36ty/civswitch-esp32-s3) for ESP32-S3
+- [mac2jb](https://github.com/cpypwn/mac2jb) for devices running macOS
+    - Not recommended as it requires disabling system integrity protection (SIP)
+- [CivSwitchLDN](https://github.com/ItsNerisma/CivSwitchLDN) for Linux devices
+    - Requires `prod.keys` from a hacked Switch 1
+- Typing in manually with a USB keyboard (This can take a very long time)
+
+#### Network setup
+
+The microcontroller also hosts a local network that allows your computer to communicate with the console without it connecting to the internet. It involves setting up an access point that will emulate a Nintendo server, tricking the console's "Connection Test" into succeeding.
+
+This section is very important to configure correctly, as an incorrect setup could lead to the console connecting to the internet and losing the ability to run homebrew.
+
+There are several other ways to set this up:
+- [90DNS Pico-less Selfhost](https://gitlab.com/a/90dns/-/blob/master/SELFHOST.md) (Advanced)
+- [SwitchNest-Hotspot](https://github.com/blueshockz47/SwitchNest-Hotspot) for the Steam Deck.
+- [CivSwitch-SerialBridge](https://github.com/jackspence7/CivSwitch-SerialBridge) for ESP32
+    - This is a slightly different method, as the computer uses a serial connection to communicate instead.
 
 </FaqDropdown>
 
