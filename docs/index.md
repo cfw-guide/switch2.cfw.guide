@@ -27,8 +27,7 @@ The following games are usable as an entry point to homebrew. SmileBasic 4 and S
 
 Civilization VII is still available, but you must purchase the **cartridge version** for Nintendo Switch 1 to use as an entry point. Some cases of the game may come with a code in the box instead of a cartridge, which will not work for homebrew.
 
-Vulnerable versions of SmileBasic 4 and Seedsow Lullaby were only available through the eShop, and have now been removed.
-
+The vulnerable version of SmileBasic 4 was only available through the eShop, and is no longer available for download. Seedsow Lullaby is still available, however it has limited use as another entry point is required first to exploit it.
 
 # FunctionBlackList
 
